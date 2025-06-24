@@ -39,3 +39,23 @@ This ETL (Extract, Transform, Load) lab takes raw CSV datasets (`raw_data.csv` a
    ```bash
    git clone https://github.com/your-username/ETL_Midterm_Cynthia_745.git
    cd ETL_Midterm_Cynthia_745
+
+---
+## How to view the transformed file
+## 🌐 Open the Database File Online
+
+You can inspect your SQLite database (`loaded/transformed_data.db`) quickly—without installing anything—using a browser-based SQLite viewer.
+
+### ✅ Steps:
+
+1. Go to **[SQLite Viewer Web](https://sqliteviewer.app)** or **[InLoopX SQLite Viewer](https://inloop.github.io/sqlite-viewer/)**.
+2. Upload the `loaded/transformed_data.db` file.
+   - All processing happens locally in your browser—your data remains private.
+3. Browse tables like `full_data`, run queries, or export to CSV—all in a familiar spreadsheet-style interface.
+
+This lets you verify your Load phase output in seconds, completely online and zero-install 😃
+  ## 📊 Screenshot
+![Screenshot 2025-06-24 185415](https://github.com/user-attachments/assets/32519d86-c4f4-43bb-a8cd-3f01ec3c8b48)
+
+*Above is a screenshot of the data being viewed on the web safely.
+
